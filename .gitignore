@@ -1,0 +1,23 @@
+# Configuración privada
+**/.env
+*/.env.
+!**/.env.example
+**/.local/
+
+# Dependencias
+**/node_modules/
+**/.venv/
+
+# Compilaciones y cachés
+**/dist/
+**/.angular/
+**/_pycache_/
+**/.pytest_cache/
+**/coverage/
+*.pyc
+*.log
+
+# Archivos físicos y respaldos de bases de datos
+*.mdf
+*.ldf
+*.bak
