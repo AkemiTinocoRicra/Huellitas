@@ -1,6 +1,6 @@
 # Configuración privada
 **/.env
-*/.env.
+**/.env.*
 !**/.env.example
 **/.local/
 
@@ -11,7 +11,7 @@
 # Compilaciones y cachés
 **/dist/
 **/.angular/
-**/_pycache_/
+**/__pycache__/
 **/.pytest_cache/
 **/coverage/
 *.pyc
@@ -21,3 +21,4 @@
 *.mdf
 *.ldf
 *.bak
+Add-Content -LiteralPath ".\.gitignore" -Value "`n**/.git-respaldo/"
